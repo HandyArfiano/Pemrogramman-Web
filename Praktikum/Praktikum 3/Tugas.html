@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation Bar</title>
+
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: fit-content;
+        overflow: hidden;
+        background-color: rgb(239, 239, 239);
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: black;
+        font-size: medium;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        border-bottom: 5px solid white;
+      }
+
+      li a:hover {
+        background-color: #636060;
+        border-bottom-color: rgb(67, 172, 171);
+        color: white;
+      }
+
+      .home {
+        background-color: rgb(67, 172, 171);
+        color: white !important;
+      }
+
+      .service a:hover {
+        color: white;
+      }
+
+      .project a:hover {
+        color: white;
+      }
+
+      .about a:hover {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="navbar">
+      <li><a href="#" class="home">HOME</a></li>
+      <li><a href="#" class="service">SERVICE</a></li>
+      <li><a href="#" class="project">PROJECT</a></li>
+      <li><a href="#" class="about">ABOUT</a></li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.produk {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.harga {
+  color: #f00;
+  font-weight: bold;
+}
+
+.Deskripsi p:first-letter {
+  font-size: 30px;
+  font-style: italic;
+}
+
+.Deskripsi p::first-line {
+  color: lightblue;
+}
+
+.Deskripsi #list1 li::before {
+  content: "💕";
+}
+
+.Deskripsi #list2 li::after {
+  content: "❤️";
+}
+
+.Deskripsi p::marker {
+  color: lightgray;
+}
+
+.Deskripsi p::selection {
+  color: white;
+  background: black;
+}
+
+.Sibling h1 + h2 {
+  color: orange;
+}
+
+.Sibling h2 + p {
+  color: blue;
+}
+
+.Sibling h2 ~ p {
+  border-left: 10px solid cornflowerblue;
+}
+
+.Sibling p ~ p {
+  font-size: 24px;
+}
